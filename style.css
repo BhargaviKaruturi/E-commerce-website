@@ -1,0 +1,286 @@
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.256);
+    height: min-content;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    z-index: 10000;
+}
+.left{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mid>a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    justify-content: center;
+}
+.mid>a:hover{
+    color: rgb(64, 255, 47);
+    border-bottom: 2px solid rgb(64, 255, 47);
+}
+.right{
+    width: 20%;
+}
+nav h1{
+    color: rgb(64, 255, 47);
+    font-size: x-large;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-shadow: 0 0 0.5px black;
+}
+.icon{
+    height: 3vmax;
+    width: 3.5vmax;
+    margin-left: 1vb;
+}
+.right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cart,.profile{
+    width: 2vmax;
+    height: 2vmax;
+}
+.body{
+    height: 90vh;;
+    width: 100%;
+    display: flex;
+    background-color: lavender;
+}
+#right{
+    display: flex;
+    justify-content: flex-end;
+}
+#right>img{
+    filter: drop-shadow(0 0 15px black)
+}
+.content{
+    height: 100%;
+    width: 50%;
+}
+#left{
+    margin-left: 1vmax;
+    padding: 2vmax;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#left>h1{
+    font-size: 3.6vmax;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#left>h3{
+    margin-top: -5%;
+    font-size: 1.8vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#left>p{
+    font-size: 1.4vmax;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    letter-spacing: 0cap;
+    word-spacing: 0%;
+}
+button{
+    width: 11.5vmax;
+    padding: 1.2vmax;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(64, 255, 47);
+}
+button:hover{
+    background-color: lawngreen;
+}
+#Instruments{
+    width: 100%;
+    height: 200vh;
+}
+.heading{
+    width: 100%;
+    height: 20vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading>h1{
+    font-size: 3.5vmax;
+    text-decoration: underline;
+    color: rgba(168, 10, 10, 0.664);
+    text-shadow: 1 1 0.3px black;
+}
+.main{
+    width: 100%;
+    height: 180vh;
+    display: flex;
+    padding: 5vmax;
+    box-sizing: border-box;
+    background-color: lavender;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.main>div{
+    height: 70vh;
+    width: 23%;
+    background-color: white;
+    padding-bottom: 1.3vmax;
+    border: 2px solid white;
+    box-shadow: 0 0 2px black;
+}
+.main>div:hover{
+    border: 2px solid black;
+}
+.box>h1{
+    text-align: center;
+    color: rgba(168, 10, 10, 0.664);
+}
+.box>div{
+    height: 70%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0.3vmax;
+    margin-bottom: 1vmax;
+}
+
+.pic1{
+    background-image: url("https://pngimg.com/d/piano_PNG10879.png");
+    background-size: cover;
+}
+.pic2{
+    background-image: url("https://pngimg.com/uploads/guitar/guitar_PNG3352.png");
+    background-size: cover;
+}
+.pic3{
+    background-image: url("https://www.pngall.com/wp-content/uploads/2016/06/Violin-Free-Download-PNG.png");
+    background-size: cover;
+}
+.pic4{
+    background-image: url("https://pngimg.com/d/drum_PNG14346.png");
+    background-size: cover;
+}
+.pic5{
+    background-image: url("https://pngimg.com/d/flute_PNG17.png");
+    background-size: cover;
+}
+.pic6{
+    background-image: url("https://atlas-content-cdn.pixelsquid.com/stock-images/golden-saxophone-k1r8GVA-600.jpg");
+    background-size: cover;
+}
+.pic7{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/002/803/140/small/illustration-of-indian-musical-instrument-used-in-hindustani-classical-music-of-india-vector.jpg");
+    background-size: cover;
+}
+.pic8{
+    background-image: url("https://png.pngtree.com/png-vector/20230912/ourmid/pngtree-indian-tabla-drum-dholki-png-image_10028848.png");
+    background-size: cover;
+}
+#price{
+    text-align: center;
+}
+.box a{
+    font-size: large;
+    color: black;
+}
+.box a:hover{
+    color: rgba(168, 10, 10, 0.664);
+}
+*{
+    scroll-behavior: smooth;
+}
+footer{
+    height: 20vmax;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.leftdiv{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vmax;
+    box-sizing: border-box;
+}
+.middiv{
+    width: 60%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1vmax;
+    box-sizing: border-box;
+}
+.leftdiv>h3{
+    color: white;
+    font-weight: 800;
+}
+.leftdiv>p{
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: smaller;
+}
+#google{
+    height: 3.5vmax;
+    width: 9vmax;
+}
+#app{
+    margin-top: 1vmax;
+    height: 2.5vmax;
+    width: 8vmax;
+    border: 0.1px solid white;
+}
+.middiv>h1{
+    color: rgb(64, 255, 47);
+    font-size: x-large;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-shadow: 0 0 0.5px black;
+    font-size: xx-large;
+}
+#foot{
+    width: 60%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#last{
+    font-size: 1vmax;
+}
+.rightdiv{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.rightdiv>h1{
+    text-decoration: underline;
+}
+.rightdiv>a{
+    font-size: larger;
+    color: aliceblue;
+    text-decoration: none;
+}
+.rightdiv>a:hover{
+    color: blue;
+}
